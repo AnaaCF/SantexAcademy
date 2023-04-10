@@ -5,52 +5,203 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xacademy Clase 1 maquetacion</title>
-    <style>
-        body {
-            margin: 0;
-        }
-        p {
-            margin-right: 40px;
-        }
-        h1 {
-            margin: 0px 400px;
-            text-align: center;
-        }
-        button.redondo {
-            background-color: white;
-            border: 1px solid black;
-            border-radius: 25px;
-            padding: 0px 20px;
-            height: 32px;
-        }
-        div#introduction-actions {
-            display: flex;
-            justify-content: center;
-        }
-    </style>
+    <link type="text/css" rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-    <div id="header" style="border-bottom: 1px solid gray; display: flex; padding: 10px 100px; justify-content: space-between">
+    <nav id="header">
         <div id="header-left">
-            <img src="logo.svg">
+            <img src="./Imágenes/logo.svg">
         </div>
-        <div id="header-right" style="display: flex; align-items: center;">
-            <p>Nosotros</p>
-            <p>Programas</p>
-            <p>Capaciontaciones</p>
-            <p>Alianzas</p>
-            <p>Contacto</p>
-            <button class="redondo">Sumate +</button>
+        <div id="header-right">
+            <div class="header-menu" >
+                <p>Nosotros</p>
+                <p>Programas</p>
+                <p>Capaciontaciones</p>
+                <p>Alianzas</p>
+                <p>Contacto</p>
+                <button class="redondo">Sumate +</button>
+            </div>
+            <div class="header-menu" >
+                <div><a href="https://www.instagram.com/technologywithpurpose/" target="_blank"><img class="iconos" src="./Imágenes/instagram.png"></a>
+                </div>           
+            
+                <div><a href="https://www.linkedin.com/company/technologywithpurpose/" target="_blank"><img  class="iconos" src="./Imágenes/linkedin2.png"></a></div>
+            </div>
+
         </div>
-    </div>
-    <div id="introduction" style="padding: 48px;">
+        
+    </nav>
+    <section id="introduction">
         <div id="introduction-text">
             <h1>Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de la tecnología.</h1>
         </div>
-        <div id="introduction-actions" style="margin-top: 25px;">
+        <div id="introduction-actions">
             <button class="redondo">Contactanos -></button>
-            <button class="redondo" style="margin-left: 14px;">Sumate +</button>
+            <button id="boton-sumate">Sumate +</button>
         </div>
-    </div>
+    </section>
+
+    <section class="impacto_caja">
+        <div class="impacto">
+            <p class="impacto-titulo" >.Impacto</p>
+            <div>
+                Buscamos construir alianzas y fortalecer vínculos para generar una transformación real en la comunidad. Trabajamos para acercar la tecnología innovadora y disruptiva del sector privado hacia el sector social.
+            </div>
+        </div>
+       <div  class="impacto_bloque">
+            <div>
+                <p class="impacto_nro">58</p>
+                <p class="impacto_palabra">Localidades</p>
+            </div>
+            <div>
+                <div style="display:block;" >
+                   <div style="display: flex">
+                        <p class="impacto_mas">+</p>
+                        <p class="impacto_nro">50</p>
+                    </div> 
+                    <p class="impacto_palabra">Mentores</p>
+                </div>
+            </div>
+            <div>
+                <p class="impacto_nro">301</p>
+                <p class="impacto_palabra">Participantes</p>
+            </div>
+       </div>      
+    </section>
+
+    <section>
+        <div class="caja">
+            <div>
+                <p class="titulo">. Programas</p>
+                <img class="img-capacitaciones" src= "./Imágenes/xacademy-Programas.jpg">
+            </div>
+            <div>
+                <img src="./Imágenes/xacademy.svg">
+                <p >xAcademy es un programa de formación en tecnología llevado adelante por la Fundación Tecnología con Propósito junto a Santex que busca promover un cambio positivo en la comunidad a través de la educación en IT, apuntando a lograr la inserción laboral de personas en el mundo tecnológico.</p>
+                <button class="redondo">Mas info -></button>
+            </div>
+        </div>
+        
+        <div class="caja"> 
+            <div class="texto-capacitaciones">
+                <div class="subtitulo"><p>Robótica educativa: la tecnología del futuro</p></div>
+                <div><p >Durante el curso, los alumnos y alumnas a través de la robótica desarrollan la curiosidad, el autodidactismo y las habilidades blandas necesarias para afrontar la revolución tecnológica del siglo XXI.</p>
+                <button class="redondo">Mas info -></button>
+                 </div>
+            </div>          
+            <img  class="img-capacitaciones" src="./Imágenes/robotica-educativa.jpg">
+        </div>
+        
+
+    </section>
+    <section >
+        <div class="caja">
+            <div>
+                <p class="titulo">. Capacitaciones</p>
+                <img class="img-capacitaciones" src="./Imágenes/estafas-virtuales.jpg">
+            </div>
+            <div>
+                <p class="subtitulo">Estafas virtuales: ¿cómo protegernos?</p>
+                <p>Los canales de comunicación a través de medios digitales cobraron gran protagonismo a partir de la pandemia. Al mismo tiempo, se perfeccionan cada vez más rápido las modalidades de estafas y fraudes virtuales. En esta capacitación vas a aprender diferentes tips y consejos útiles para navegar de manera más segura.</p>
+                <button class="redondo">Mas info -></button>
+            </div>
+        </div>
+        <div class="caja"> 
+            <div class="texto-capacitaciones">
+                <div class="subtitulo"><p>Seguridad informática para infancias</p></div>
+                <div><p>¿Navegamos seguros en internet? La propuesta es una charla para niños y niñas donde se brindan herramientas de seguridad y autocuidado digital.</p> </div>           
+                <div><button class="redondo">Mas info -></button></div>
+            </div>
+                      
+            <img class="img-capacitaciones" src="./Imágenes/seguridad-informatica-para-infancias.jpg">
+        </div>
+    </section>
+    <section class="equipo">
+       <div class="titulo"><p >. Equipo</p></div>
+      
+        <div class="caja">
+            <div class="tarjeta" >
+                <img class="img-tarjeta" src="./Imágenes/euipo-juan Santiago.png">
+                <p>Juan Santiago</p>
+                <p class="trabajo">Presidente</p>
+                <img class="iconos_foto" src="./Imágenes/linkedin.png">
+            </div>
+            <div class="tarjeta">
+                <img class="img-tarjeta" src="./Imágenes/equipo-walter Abrigo.png">
+                <p>Walter Abrigo</p>
+                <p class="trabajo">Secretario</p>
+                <img class="iconos_foto" src="./Imágenes/linkedin.png">
+            </div>
+            <div class="tarjeta">
+                <img class="img-tarjeta" src="./Imágenes/equipo-gabriela.png">
+                <p>Gabriela Fernandez</p>
+                <p class="trabajo">Tesorera</p>
+                <img class="iconos_foto" src="./Imágenes/linkedin.png">
+            </div>
+            <div class="tarjeta">
+                <img class="img-tarjeta" src="./Imágenes/equipo-gabriel.png">
+                <p>Gabriel Dubini</p>
+                <p class="trabajo">Tesorero</p>
+                <img class="iconos_foto" src="./Imágenes/linkedin.png">
+            </div>
+
+        </div>
+        <div class="caja">
+          
+            <div class="tarjeta">
+                <img class="img-tarjeta" src="./Imágenes/equipo-florencia.png">
+                <p>Florencia D'Agostino</p>
+                <p class="trabajo">Dirección Ejecutiva</p>
+                <img class="iconos_foto" src="./Imágenes/linkedin.png">
+            </div>
+            <div class="tarjeta">
+                <img class="img-tarjeta" src="./Imágenes/equipo-celeste.png">
+                <p>Celeste Torresi</p>
+                <p class="trabajo">Comisión Directiva</p>
+                <img class="iconos_foto" src="./Imágenes/linkedin.png">
+            </div>
+            <div class="tarjeta">
+                <img class="img-tarjeta" src="./Imágenes/equipo-lucia.png">
+                <p>Lucía Jaimez</p>
+                <p class="trabajo">Directora xAcademy</p>
+                <img class="iconos_foto" src="./Imágenes/linkedin.png">
+            </div>
+
+        </div>
+        
+        
+        
+       
+        
+    </section>
+    <section>
+        <p class="titulo">. Alianzas</p>
+        <div>
+            <img src="./Imágenes/alianza-jesus-maria-400x151.png">
+            <img src="./Imágenes/alianza-grupo-inteligencia-educativa-400x151.png">
+            <img src="./Imágenes/alianza-naranja-400x151.png">
+        </div>
+    </section>
+    <footer>
+       
+        <nav>
+            <ul class="caja">
+                <img  src="./Imágenes/logo2.svg"></li>
+                <li>Trabajamos para acercar la tecnología innovadora y disruptiva del sector privado hacia el sector social.</li>
+                <li><a href="">NOSOTROS<br>CONTACTO</a></li>
+                <li><a href="">PROGRAMAS<br>CAPACITACIONES</a></li>
+                <li><a href="">Términos y <br>condiciones</a></li>
+                <div>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">Linkedin</a></li>
+                </div>
+
+             
+            </ul>
+        </nav>
+        
+    </footer>
 </body>
 </html>

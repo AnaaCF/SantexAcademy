@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+p {
+    margin-right: 40px;
+}
+h1 {
+    margin: 0px 400px;
+    text-align: center;
+}
+.iconos{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    
+}
+nav {
+    border-bottom: 1px solid gray; 
+    display: flex; 
+    padding: 20px 100px; 
+    justify-content:space-between;    
+}
+
+#header-right{
+    display: flex; 
+    align-items: center;   
+   
+}
+.header-menu{
+    display: flex; 
+    align-items: center; 
+    margin-left: 50px;
+   
+     
+}
+#header-left{
+    display: flex; 
+    align-items: center;   
+    
+}
+
+#introduction{
+    padding: 48px;
+    margin-top: 50px;
+}
+#introduction-text{
+    font-size: larger;
+}
+#introduction-actions{
+    margin-top: 25px;
+}
+.iconos_foto{
+    width: 40px;
+    height: 40px;
+}
+button.redondo {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 0px 20px;
+    height: 50px;
+    
+    cursor: pointer;
+    font-size:15px; 
+    font-weight: bolder; 
+}
+#boton-sumate{
+    border-color:blueviolet;
+    border-radius: 20px 20px 20px 20px;
+    background: rgba(255,255,255,0);
+    color: blueviolet;
+    padding: 0px 20px;
+    height: 50px;
+   
+    margin-left: 15px;
+    cursor: pointer;
+    border: 3px solid;  
+    font-size:15px; 
+    font-weight: bolder; 
+}
+#boton-sumate:hover {
+    background: blueviolet;
+    color: aliceblue;
+
+    
+}
+
+div#introduction-actions {
+    display: flex;
+    justify-content: center;
+}
+.impacto_caja{
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    background-color:rgb(44, 44, 56);
+    margin-top: 50px;
+    color: aliceblue;
+    font: bold;
+    font-size: medium;
+    font-size:x-large; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mensiones{
+    font-size:medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    margin-top: 5px;
+}
+.impacto{
+    margin-left: 250px;
+    margin-right: 20px;
+    margin-bottom: 150px;
+    margin-top: 150px; 
+    border: 25px;
+}
+p.impacto{
+    font-size: xx-large;
+    font-weight:bolder;
+    font-weight:1000px;
+    margin-bottom: 10px;
+    color: brown;
+    
+}
+.impacto-titulo{
+    font-size: xx-large;
+    font-weight:bolder;    
+    margin-bottom: 20px;
+}
+.titulo{
+    font-size: xx-large;
+    font-weight:bolder;  
+    margin-left: 70px; 
+    margin-top: 25px;
+}
+.impacto_palabra{
+    font-size: smaller;
+    margin-top: 5px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(121, 120, 118);
+}
+.impacto_nro{
+    font-size:2em; 
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.impacto_mas{
+    font-size:2em; 
+    margin-right: 0px;
+    font-weight: bold;
+    color: blueviolet;
+}
+.impacto_bloque{
+    display: flex; 
+    margin-right: 200px; 
+    margin-left: 50px; 
+    margin-top: 80px; 
+    margin-bottom: 80px;
+    text-align: center;
+}
+.caja{
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    margin-top: 50px;   
+    font: bold;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 70px; 
+}
+.equipo{
+    background-color: rgb(245, 243, 243);
+    margin-top: 15px;
+    padding-top: 15px;
+}
+li{
+    margin: 50px;
+    list-style: none;
+}
+footer{
+    background-color:rgb(44, 44, 56);
+}
+footer nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+footer nav ul li {
+   
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.tarjeta{
+   
+    text-align: center;
+    margin: 15px;
+       
+}
+.img-tarjeta{
+    border-radius:20px 20px 20px 20px ;
+    width: 320px;
+}
+.img-capacitaciones{
+    border-radius:20px 20px 20px 20px ;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 50px;
+}
+.texto-capacitaciones{
+    margin-left: 70px;
+    margin-right: 50px;
+}
+.subtitulo{
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.trabajo{
+    color: rgb(99, 97, 97);
+    font-size:medium;
+}
